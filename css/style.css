@@ -7,10 +7,11 @@
   box-sizing: border-box;
 }
 
-.navbar{
-  position: sticky;
-  top: 0;
+html {
+  scroll-behavior: smooth;
 }
+
+
 
 .intro{
   text-align: center;
@@ -20,6 +21,7 @@
 .nav-links{
   padding: 10px 10% ;
   margin-top: -20px;
+  transition: all 0.3s ease-in-out;
 }
 
 nav{
