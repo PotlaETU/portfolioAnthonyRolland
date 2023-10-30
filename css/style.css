@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -11,42 +11,40 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-.intro{
+.intro {
   text-align: center;
   color: white;
 }
 
-.nav-links{
-  padding: 10px 10% ;
+.nav-links {
+  padding: 10px 10%;
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
-  margin:  10px 20px;
+  margin: 10px 20px;
   margin-top: -30px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   position: relative;
 }
-nav ul li a::after{
-  content: '';
+nav ul li a::after {
+  content: "";
   width: 0;
   height: 3px;
   background: #3498db;
@@ -55,25 +53,25 @@ nav ul li a::after{
   bottom: -6px;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
   width: 100%;
   transition: 0.4s;
 }
 
-.logo{
+.logo {
   width: 140px;
   height: 140px;
   margin-left: -100px;
-} 
-
-.intro h2{
-  margin-top: 10px;
-  font-family: 'Montserrat', sans-serif;
 }
 
-.intro p{
+.intro h2 {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro p {
   font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -82,29 +80,28 @@ body {
 
 /*A propos*/
 
-#about{
-  padding: 70px 0;
+#about {
+  padding: 140px 0;
   color: white;
 }
 
-.lignes{
+.lignesapropos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.apropos1{
+.apropos1 {
   width: 40%;
   margin-left: 5%;
   flex-basis: 45%;
 }
 
-.apropos1 h1{
+.apropos1 h1 {
   font-size: 40px;
   margin-bottom: 20px;
   font-weight: 600;
-  font-family: 'League Spartan', sans-serif;
-
+  font-family: "League Spartan", sans-serif;
 }
 
 .apropos1 img {
@@ -113,24 +110,24 @@ body {
   margin-top: 10px;
 }
 
-.apropos1 p{
+.apropos1 p {
   font-size: 20px;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
-  justify-content:space-around;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-around;
 }
 
-.apropos1 img{
+.apropos1 img {
   width: 125px;
   height: 125px;
 }
 
-.apropos1 h2{
+.apropos1 h2 {
   font-size: 28px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
-.apropos2 img{
+.apropos2 img {
   width: 50%;
   margin-right: 5%;
   border-radius: 10px;
@@ -138,8 +135,61 @@ body {
   margin-left: 150px;
 }
 
-.apropos2{
+.apropos2 {
   width: 60%;
   flex-basis: 50%;
 }
 
+.education {
+  margin-top: -90px;
+  padding: 0 5%;
+  color: white;
+}
+
+.education h2 {
+  font-family: "League Spartan", sans-serif;
+}
+
+.education p h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ligneseducation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+}
+
+.educationitem {
+  background-color: #1f1f1f;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.texteducation {
+  padding: 15px 15px;
+}
+
+.texteducation p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 3px 0;
+}
+
+.texteducation h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.education h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 60px;
+}
