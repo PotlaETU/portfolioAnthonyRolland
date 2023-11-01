@@ -22,15 +22,16 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999;}
+  z-index: 999;
+}
 
 .nav-links {
   padding: 10px 10%;
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
   background-color: #1f1f1f;
-  height: 18vh; 
-  position: sticky; 
+  height: 17vh;
+  position: sticky;
 }
 
 nav {
@@ -74,9 +75,11 @@ nav ul li a:hover::after {
   height: 140px;
   margin-left: -100px;
 }
+.intro {
+  margin-top: 50px;
+}
 
 .intro h2 {
-  margin-top: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -92,7 +95,7 @@ body {
 /*A propos*/
 
 #about {
-  padding: 140px 0;
+  padding: 100px 0;
   color: white;
 }
 
@@ -112,6 +115,7 @@ body {
   font-size: 40px;
   margin-bottom: 20px;
   font-weight: 600;
+  text-align: justify;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -155,6 +159,7 @@ body {
   margin-top: -90px;
   padding: 0 5%;
   color: white;
+  display: grid;
 }
 
 .education h2 {
@@ -178,18 +183,19 @@ body {
 
 .educationitem {
   background-color: #1f1f1f;
-  width: 250px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
   border-radius: 15px;
-  margin: 30px ;
+  margin: 20px;
+  padding: 10px;
 }
 
 .texteducation {
   padding: 15px 15px;
 }
 
-.texteducation p{
-  font-family: 'Montserrat', sans-serif;
+.texteducation p {
+  font-family: "Montserrat", sans-serif;
   margin: 3px 0;
 }
 
@@ -203,4 +209,12 @@ body {
   font-weight: 600;
   font-family: "League Spartan", sans-serif;
   margin-top: 60px;
+}
+
+.educationitem1 {
+  margin: 0;
+}
+
+.educationitem2 {
+  margin-top: 0;
 }
