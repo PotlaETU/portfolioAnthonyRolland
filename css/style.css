@@ -164,6 +164,7 @@ body {
 
 .education h2 {
   font-family: "League Spartan", sans-serif;
+  text-align: center;
 }
 
 .education p h3 {
@@ -183,8 +184,7 @@ body {
 
 .educationitem {
   background-color: #1f1f1f;
-  width: 450px;
-  height: 250px;
+  height: auto;
   border-radius: 15px;
   margin: 20px;
   padding: 10px;
@@ -197,10 +197,18 @@ body {
 .texteducation p {
   font-family: "Montserrat", sans-serif;
   margin: 3px 0;
+  font-style: italic
+}
+
+.texteducation h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  text-align: justify;
 }
 
 .texteducation h3 {
   font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
 }
 
 .education h1 {
@@ -211,10 +219,18 @@ body {
   margin-top: 60px;
 }
 
-.educationitem1 {
-  margin: 0;
+.educationitem1, .educationitem2 {
+  width: 50%;
 }
 
-.educationitem2 {
-  margin-top: 0;
-}
+.cv-btn{
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;}
