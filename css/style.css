@@ -2,10 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+
+
 
 html {
   scroll-behavior: smooth;
@@ -17,14 +20,6 @@ html {
   margin-top: 15px;
 }
 
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-}
-
 .nav-links {
   padding: 10px 10%;
   margin-top: -20px;
@@ -32,6 +27,7 @@ html {
   background-color: #1f1f1f;
   height: 17vh;
   position: sticky;
+  width: 100%;
 }
 
 nav {
@@ -77,15 +73,12 @@ nav ul li a:hover::after {
 }
 .intro {
   margin-top: 50px;
-}
-
-.intro h2 {
   font-family: "Montserrat", sans-serif;
+
 }
 
 .intro p {
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -95,7 +88,7 @@ body {
 /*A propos*/
 
 #about {
-  padding: 100px 0;
+  margin-top: 50px;
   color: white;
 }
 
@@ -156,10 +149,8 @@ body {
 }
 
 .education {
-  margin-top: -90px;
-  padding: 0 5%;
+  padding: 40px 5%;
   color: white;
-  display: grid;
 }
 
 .education h2 {
@@ -178,7 +169,6 @@ body {
 .education h1 {
   font-size: 40px;
   margin-bottom: 20px;
-  font-weight: 600;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -216,12 +206,14 @@ body {
   margin-bottom: 20px;
   font-weight: 600;
   font-family: "League Spartan", sans-serif;
-  margin-top: 60px;
 }
 
 .educationitem1, .educationitem2 {
   width: 50%;
 }
+
+.educationitem1 {
+  margin-left: 0;}
 
 .cv-btn{
   margin-top: 20px;
@@ -234,4 +226,21 @@ body {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+}
+
+/*Compétences*/
+
+.competences{
+  padding: 0 5%;
+  color: white;
+}
+
+.competences h1{
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
+}
+
+.competences li {
+    list-style: none;
 }
