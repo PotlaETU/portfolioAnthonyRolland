@@ -247,3 +247,31 @@ body {
 .competences li {
     list-style: none;
 }
+
+.liste-competences {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.liste-links{
+  margin-right: 50px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  position: relative;
+}
+
+.liste-links::after{
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3498db;
+  transition: 0.5s;
+}
+
+.liste-links:hover::after{
+  width: 100%;
+}
