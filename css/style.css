@@ -21,11 +21,11 @@ html {
 }
 
 .nav-links {
-  padding: 10px 10%;
+  padding: 10px 5%;
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
   background-color: #1f1f1f;
-  height: 17vh;
+  height: 15vh;
   position: sticky;
   width: 100%;
 }
@@ -51,7 +51,7 @@ nav ul li a {
   font-family: "League Spartan", sans-serif;
   position: relative;
 }
-nav ul li a::after {
+nav ul li a::after:not(:last-child) {
   content: "";
   width: 0;
   height: 3px;
@@ -69,7 +69,8 @@ nav ul li a:hover::after {
 .logo {
   width: 140px;
   height: 140px;
-  margin-left: -100px;
+  margin-left: -45px;
+  margin-top: -13px;
 }
 .intro {
   margin-top: 50px;
