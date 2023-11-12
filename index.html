@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <script src="main.js"></script>
     <title>Portfolio ROLLAND Anthony</title>
   </head>
   <body>
@@ -116,12 +117,11 @@
         <div class="texte-competences">
           <div class="container">
             <div class="liste-competences">
-              <p class="liste-links active-link">Développement Web</p>
-              <p class="liste-links">Développement applicatif</p>
-              <p class="liste-links">Système et données</p>
+              <p class="liste-links active-link" onclick="tabopen(event,'devweb')">Développement Web</p>
+              <p class="liste-links" onclick="tabopen(event, 'devapp')">Développement applicatif</p>
+              <p class="liste-links" onclick="tabopen(event, 'devops')">Système et données</p>
             </div>
-            <div class="content-competences">
-              <div class="devweb">
+              <div class="content-competences active-tab" id="devweb">
                 <ul>
                   <li>
                     <span>HTML / CSS / PHP et JavaScript</span>
@@ -149,7 +149,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="devapp">
+              <div class="content-competences" id="devapp">
                 <ul>
                   <li>
                     <span>Java et Python</span>
@@ -161,12 +161,11 @@
                   <li>
                     <div class="date">Fin 2023 :</div>
                     <div class="description">
-                      Découverte de Flask :                       Développement d'un site de recherche de Pokémon (avec un PokéDex) en utilisant une API (PokéAPI)
+                      Découverte de Flask : Développement d'un site de recherche de Pokémon (avec un PokéDex) en utilisant une API (PokéAPI)
                     </div>
                   </li>
                 </ul>
               </div>
-            </div>
           </div>
         </div>
       </div>
