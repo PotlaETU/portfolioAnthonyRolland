@@ -130,8 +130,8 @@ body {
 }
 
 .apropos1 img {
-  width: 125px;
-  height: 125px;
+  width: 120px;
+  height: 120px;
 }
 
 .apropos1 h2 {
@@ -281,7 +281,7 @@ body {
 .competences li span{
   font-family: 'League Spartan', sans-serif;
   color: #3498db;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .content-competences .date{
@@ -332,8 +332,11 @@ body {
   display: none;
 }
 
-
 .content-competences.active-tab{
   display: block;
+}
+
+.description a{
+  color: white;
 }
 
