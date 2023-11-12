@@ -328,3 +328,12 @@ body {
   width: 40%;
 }
 
+.content-competences{
+  display: none;
+}
+
+
+.content-competences.active-tab{
+  display: block;
+}
+
