@@ -20,14 +20,14 @@ html {
 .intro {
   text-align: center;
   color: white;
-  margin-top: 15px;
+  font-size: 22px;
 }
 
 .nav-links {
   padding: 10px 5%;
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
-  background-color: #494949;
+  background-color: #303030;
   position: sticky;
   height: 11vh;
   width: 100%;
@@ -86,7 +86,7 @@ nav ul li a:hover::after {
 }
 
 body {
-  background-color: #333533;
+  background-color: #252525;
 }
 
 /*A propos*/
@@ -177,7 +177,7 @@ body {
 }
 
 .educationitem {
-  background-color: #1f1f1f;
+  background-color: #1a1a1a;
   height: auto;
   border-radius: 15px;
   margin: 20px;
@@ -330,6 +330,13 @@ body {
 
 .content-competences{
   display: none;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+}
+
+.content-competences ul{
+  margin: 10px;
+  padding: 10px;
 }
 
 .content-competences.active-tab{
