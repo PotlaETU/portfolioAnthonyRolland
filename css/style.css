@@ -388,10 +388,13 @@ input[type=submit]:hover {
 
 .form{
   flex-basis: 50%;
-}
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 20px;}
 
 .liens{
   flex-basis: 40%;
+  padding: 20px;
 }
 
 .github img, .linkedin img{
@@ -427,4 +430,8 @@ input[type=submit]:hover {
   font-size: 25px;
   font-family: "League Spartan", sans-serif;
 }
-  
+
+.mess-envoye{
+  text-align: center;
+  align-items: center;
+}
