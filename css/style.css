@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Raleway:wght@200&display=swap');
 
 * {
   padding: 0;
@@ -116,11 +116,6 @@ body {
   font-family: "League Spartan", sans-serif;
 }
 
-.apropos1 img {
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
-}
 
 .apropos1 p {
   font-size: 20px;
@@ -129,15 +124,6 @@ body {
   justify-content: space-around;
 }
 
-.apropos1 img {
-  width: 120px;
-  height: 120px;
-}
-
-.apropos1 h2 {
-  font-size: 28px;
-  font-family: "League Spartan", sans-serif;
-}
 
 .apropos2 img {
   width: 50%;
@@ -371,6 +357,15 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
+input, textarea{
+  font-family: 'Montserrat', sans-serif;
+}
+
+label{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+}
+
 input[type=submit] {
   background-color: #3498db;
   color: white;
@@ -388,5 +383,48 @@ input[type=submit]:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.form{
+  flex-basis: 50%;
+}
+
+.liens{
+  flex-basis: 40%;
+}
+
+.github img, .linkedin img{
+  width: 90px;
+  padding: 10px;
+}
+
+.rgpd{
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  margin-top: 1em;
+}
+
+.rgpd a{
+  color: white;
+}
+
+.linkedin, .github{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.linkedin a, .github a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact-row h1 {
+  font-size: 25px;
+  font-family: "League Spartan", sans-serif;
 }
   
