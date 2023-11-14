@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <script src="main.js"></script>
+    <script src="emailjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("lOg8roE8f-2e-UJVP");
+      })();
+    </script>
     <title>Portfolio ROLLAND Anthony</title>
   </head>
 
@@ -232,40 +239,50 @@
       <div class="contact-titre">Contact</div>
       <div class="contact-row" id="contact">
         <div class="form">
-          <form>
-            <label for="fname">Nom et prénom</label>
+          <form id="formulaire" style="display: block;">
+            <label>Nom et prénom</label>
             <input
               type="text"
               id="name"
-              name="firstname"
+              name="name"
               placeholder="Votre nom et prénom . . ."
             />
-
-            <label for="lname">Sujet du message</label>
+            <label>EMail</label>
             <input
               type="text"
-              id="lname"
-              name="lastname"
+              id="email"
+              name="email"
+              placeholder="nom@email.fr."
+            />
+
+            <label>Sujet du message</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
               placeholder="Renseignements . . ."
             />
 
-            <label for="subject">Message</label>
+            <label>Message</label>
             <textarea
-              id="subject"
-              name="subject"
+              id="message"
+              name="message"
               placeholder="Écrivez votre message ici . . ."
               style="height: 200px"
             ></textarea>
-
-            <input type="submit" value="Envoyer" />
+          <input type="submit" value="Envoyer" onclick="mailSent()" />
           </form>
-          <div class="rgpd">
+          <div class="mess-envoye" id="mess-envoye" style="display: none;">
+            <h1>Votre message a bien été envoyé, merci !</h1>
+          </div>
+          <div class="rgpd" id="rgpd" display: block;">
             Lorsque vous me contactez par e-mail, vos données personnelles (nom,
-          prénom, sujet, adresse e-mail) sont utilisées uniquement dans le but de
-          répondre à votre demande. Je ne partage, ni n'utilise vos informations avec
-          des tiers et ne les conserve que le temps nécessaire pour vous répondre. 
-          À tout moment, vous pouvez demander la suppression de
-          vos données ou nos contacts en me contactant <a href="mailto:anthony.rolland@proton.me">ici</a>.
+            prénom, sujet, adresse e-mail) sont utilisées uniquement dans le but
+            de répondre à votre demande. Je ne partage, ni n'utilise vos
+            informations avec des tiers et ne les conserve que le temps
+            nécessaire pour vous répondre. À tout moment, vous pouvez demander
+            la suppression de vos données ou nos contacts en me contactant
+            <a href="mailto:anthony.rolland@proton.me">ici</a>.
           </div>
         </div>
         <div class="liens">
