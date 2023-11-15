@@ -230,7 +230,7 @@ body {
 }
 
 .img-competences{
-  flex-basis: 35%;
+  flex-basis: 40%;
 }
 
 .competences img{
@@ -245,7 +245,7 @@ body {
 }
 
 .texte-competences{
-  flex-basis: 60%;
+  flex-basis: 55%;
 }
 
 .row{
@@ -452,4 +452,14 @@ footer{
 
 footer span{
   color: #3498db;
+}
+
+@media only screen and (max-width: 980px){
+  .img-competences{
+    display: none;
+  }
+
+  .row{
+    display: inline;
+  }
 }
