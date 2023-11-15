@@ -1,6 +1,8 @@
-var tabLinks = document.getElementsByClassName("liste-links");
-
-var tabContent = document.getElementsByClassName("content-competences");
+let tabLinks = document.getElementsByClassName("liste-links");
+let menuIcon = document.getElementById("menuicon");
+let closeMenu = document.getElementById("close");
+let menuUl = document.getElementsByClassName("menu-ul");
+let tabContent = document.getElementsByClassName("content-competences");
 
 function tabopen(event, tabName){
     for(tab of tabLinks){
@@ -14,3 +16,12 @@ function tabopen(event, tabName){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabName).classList.add("active-tab")
 }
+
+function menuOpen(){
+    menuUl[0].style.right = "0";
+}
+
+function menuClose(){
+    menuUl[0].style.right = "-200px";
+}
+
