@@ -39,6 +39,18 @@ nav {
   flex-wrap: wrap;
 }
 
+nav span{
+  color: white;
+}
+
+#menuicon{
+  display: none;
+}
+
+#close{
+  display: none;
+}
+
 nav ul li {
   display: inline-block;
   list-style: none;
@@ -427,6 +439,7 @@ input[type=submit]:hover {
   text-decoration: none;
 }
 
+
 .contact-row h1 {
   font-size: 25px;
   font-family: "League Spartan", sans-serif;
@@ -461,5 +474,42 @@ footer span{
 
   .row{
     display: inline;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #menuicon, #close{
+    display: block;
+    margin-top: 0.5em;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .nav-links{
+    width: 100%;
+  }
+
+  nav ul{
+    background: #3498db;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 2;
+    transition: right 0.5s ease;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 40px 0;
+  }
+
+  #close{
+    position: absolute;
+    top: 0;
+    left: 40px;
   }
 }
