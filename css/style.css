@@ -467,6 +467,15 @@ footer span{
   color: #3498db;
 }
 
+.phone span{
+  font-size: 80px;
+}
+
+.phone{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 @media only screen and (max-width: 980px){
   .img-competences{
     display: none;
