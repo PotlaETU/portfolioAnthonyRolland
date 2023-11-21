@@ -24,7 +24,3 @@ function menuOpen(){
 function menuClose(){
     menuUl[0].style.right = "-200px";
 }
-
-function goTo(sectionId) {
-    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-}
