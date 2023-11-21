@@ -504,6 +504,85 @@ footer span{
     justify-content: center;
   }
 
+  .lignesapropos{
+    display: flex;
+  }
+
+  .intro p{
+    font-size: 20px;
+  }
+
+  #about{
+    margin-top: 0;
+  }
+
+  .education{
+    padding: 10px;
+  }
+
+  .education h1{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .ligneseducation{
+    display: grid;
+  }
+
+  .educationitem1, .educationitem2{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .texteducation{
+    font-size: 10px;
+  }
+
+  .titrecomp h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contact-row{
+    display: block;
+  }
+
+  .contact-titre{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contact{
+    padding: 10px;
+  }
+
+  .intro{
+    margin-top: 1em;
+  }
+
+  .intro h2{
+    font-size: 15px;
+  }
+
+  .lignesapropos h1{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .apropos1{
+    flex-basis: 100%;
+    margin: 25px;
+  }
+
+  .apropos1 p{
+    font-size: 15px;
+  }
+
+  .apropos2{
+    display: none;
+  }
+
   .liens span{
     font-size: 40px;
   }
@@ -518,17 +597,54 @@ footer span{
 
   .liens{
     flex-basis: 100%;
+    padding: 10px;
   }
 
-  .form{
-    flex-basis: 80%;
+  .footer{
+    font-size: 7px;
+  }
+
+  .footer span {
+    font-size: 12px;
+  }
+
+  .liste-competences{
+    display: grid;
+    width: 100%;
+  }
+
+  .liste-competences p{
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .rgpd{
+    font-size: 6px;
+  }
+
+  .logo{
+    height: 90px;
+    width: 90px;
+    margin-top: -1.8em;
+    margin-left: 30px;
+  }
+
+  .nav-links{
+    height: 3em;
+  }
+
+  #menuicon{
+    margin-top: 0;
+  }
+
+  .liste-links{
+    justify-content: space-around;
   }
 }
 
 @media only screen and (max-width: 800px) {
   #menuicon, #close{
     display: block;
-    margin-top: 0.5em;
     font-size: 30px;
     cursor: pointer;
   }
