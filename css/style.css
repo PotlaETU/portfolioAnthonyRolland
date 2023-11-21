@@ -492,13 +492,7 @@ footer span{
   }
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 300px) {
+@media only screen and (max-width: 700px) {
 
   .contact-row{
     justify-content: center;
@@ -509,11 +503,15 @@ footer span{
   }
 
   .intro p{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #about{
     margin-top: 0;
+  }
+
+  .cv-btn{
+    padding: 0;
   }
 
   .education{
@@ -521,7 +519,7 @@ footer span{
   }
 
   .education h1{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
   }
 
@@ -535,11 +533,11 @@ footer span{
   }
 
   .texteducation{
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .titrecomp h1{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     padding: 10px;
   }
@@ -562,7 +560,7 @@ footer span{
   }
 
   .intro h2{
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .lignesapropos h1{
@@ -575,12 +573,29 @@ footer span{
     margin: 25px;
   }
 
+  .apropos1 h1{
+    font-size: 30px;
+  }
+
   .apropos1 p{
-    font-size: 15px;
+    font-size: 18px;
+    text-align: justify;
   }
 
   .apropos2{
     display: none;
+  }
+
+  .intro2{
+    display: block;
+  }
+
+  .intro2 img{
+    width: 150px;
+  }
+
+  .intro2 img{
+    border-radius: 10px;
   }
 
   .liens span{
@@ -591,6 +606,10 @@ footer span{
     width: 50px;
   }
 
+  #close{
+    margin: 30px;
+  }
+
   .phone{
     margin-left: 5px;
   }
@@ -598,6 +617,12 @@ footer span{
   .liens{
     flex-basis: 100%;
     padding: 10px;
+  }
+
+  .liens h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
   }
 
   .footer{
@@ -615,11 +640,11 @@ footer span{
 
   .liste-competences p{
     margin: 10px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .rgpd{
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .logo{
