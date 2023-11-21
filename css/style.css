@@ -498,6 +498,37 @@ footer span{
   }
 }
 
+@media (max-width: 300px) {
+
+  .contact-row{
+    justify-content: center;
+  }
+
+  .liens h1{
+    margin-right: 120px;
+  }
+
+  .liens span{
+    font-size: 40px;
+  }
+
+  .liens img{
+    width: 50px;
+  }
+
+  .phone{
+    margin-left: 5px;
+  }
+
+  .liens{
+    flex-basis: 100%;
+  }
+
+  .form{
+    flex-basis: 80%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #menuicon, #close{
     display: block;
