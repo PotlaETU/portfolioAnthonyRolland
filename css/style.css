@@ -700,5 +700,6 @@ footer span{
     position: absolute;
     top: 0;
     left: 40px;
+    margin: 30px;
   }
 }
