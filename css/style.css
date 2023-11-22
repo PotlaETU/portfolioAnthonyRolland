@@ -668,6 +668,12 @@ footer span{
   }
 }
 
+@media all and (max-width: 1300px) {
+  .apropos2{
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #menuicon, #close{
     display: block;
