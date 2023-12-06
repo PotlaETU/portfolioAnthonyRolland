@@ -245,12 +245,9 @@ body {
   color: white;
 }
 
-.img-competences{
-  flex-basis: 40%;
-}
+
 
 .competences img{
-  width: 100%;
   border-radius: 10px;
   margin-top: 3vh;
 }
@@ -302,6 +299,20 @@ body {
   margin: 20px 0 40px;
   width: 80%;
   justify-content: space-between;
+}
+
+.img-competences{
+  flex-basis: 40%;
+}
+
+.devweb-img{
+  display: block;
+}
+
+.img-competences img{
+  width: 25%;
+  height: auto;
+  margin-left: 2em;
 }
 
 .liste-links{

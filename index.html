@@ -116,21 +116,26 @@
     <div class="competences">
       <div class="row">
         <div class="img-competences">
-          <img src="img/programming-1873854_640.png" alt="informatique" />
+          <div class="devwweb-img">
+            <img src="img/htmlcss.png" alt="html css">
+            <img src="img/php.png" alt="php">
+            <img src="img/js.png" alt="js">
+            <img src="img/laravel.png" alt="laravel">
+          </div>  
         </div>
         <div class="texte-competences">
           <div class="container">
             <div class="liste-competences">
               <p
                 class="liste-links active-link"
-                onclick="tabopen(event,'devweb')"
+                onclick="tabopen(event,'devweb'); imgSet(event, 'devweb')"
               >
                 Développement Web
               </p>
-              <p class="liste-links" onclick="tabopen(event, 'devapp')">
+              <p class="liste-links" onclick="tabopen(event, 'devapp'); imgSet(event, 'devapp')">
                 Développement applicatif
               </p>
-              <p class="liste-links" onclick="tabopen(event, 'devops')">
+              <p class="liste-links" onclick="tabopen(event, 'devops'); imgSet(event, 'devops')">
                 Système et données
               </p>
             </div>

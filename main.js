@@ -15,6 +15,13 @@ function tabopen(event, tabName){
 
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabName).classList.add("active-tab")
+    document.getElementById(tabName).classList.add("active-tab")
+    document.getElementById(tabName).classList.add("active-tab")
+}
+
+function imgSet(event, tabName){
+    document.getElementsByClassName(event.currentTarget.getElementsByClassName+ "-img").style.display = "none";
+    document.getElementsByClassName(tabName+ "-img").style.display = "block";
 }
 
 function menuOpen(){
