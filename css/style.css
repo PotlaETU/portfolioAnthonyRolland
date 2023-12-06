@@ -243,6 +243,7 @@ body {
 .competences{
   padding: 0 5%;
   color: white;
+  height: 475px; 
 }
 
 
@@ -310,9 +311,24 @@ body {
 }
 
 .img-competences img{
-  width: 25%;
+  width: 32%;
   height: auto;
   margin-left: 2em;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.comp-img.active-tab{
+  display: block;
+}
+
+.logoside img{
+  width: 20%;
+  margin-left: 4em;
+}
+
+.comp-img{
+  display: none;
 }
 
 .liste-links{
@@ -341,6 +357,7 @@ body {
 .liste-links.active-link::after{
   width: 40%;
 }
+
 
 .content-competences{
   display: none;
@@ -686,6 +703,10 @@ footer span{
     cursor: pointer;
   }
 
+  .competences{
+    height: auto;
+  }
+
   .nav-links{
     width: 100%;
   }
@@ -714,4 +735,29 @@ footer span{
     left: 40px;
     margin: 30px;
   }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.competences{
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.ligneseducation{
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+#contact{
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.lignesapropos{
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.comp-img.animate {
+  animation: fadeIn 0.5s ease-in-out;
 }
