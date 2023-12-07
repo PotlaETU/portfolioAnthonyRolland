@@ -1,357 +1,321 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="img/logo.png"/>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <script src="main.js"></script>
-    <script src="emailjs.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("lOg8roE8f-2e-UJVP");
-      })();
-    </script>
-    <title>Portfolio ROLLAND Anthony</title>
-  </head>
 
-  <body>
-    <div class="nav-links">
-      <nav id="navbartop" class="navbar">
-        <a id="intrologo" href="index.html"
-          ><img src="img/R.png" alt="Logo" class="logo"
-        /></a>
-        <ul class="menu-ul">
-          <li><a href="#about">A propos</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#competences">Compétences</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a
-              href="resources/CV.pdf"
-              target="_blank"
-              class="cv-btn"
-              ><span class="material-symbols-outlined"> download </span>CV</a
-            >
-          </li>
-          <span id="close" class="material-symbols-outlined" onclick="menuClose()">
-            close
-            </span>
-        </ul>
-        <span id="menuicon" class="material-symbols-outlined" onclick="menuOpen()">
-          menu
-          </span>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/logo.png" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="main.js"></script>
+  <script src="emailjs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("lOg8roE8f-2e-UJVP");
+    })();
+  </script>
+  <title>Portfolio ROLLAND Anthony</title>
+</head>
+
+<body>
+  <div class="nav-links">
+    <nav id="navbartop" class="navbar">
+      <a id="intrologo" href="index.html"><img src="img/R.png" alt="Logo" class="logo" /></a>
+      <ul class="menu-ul">
+        <li><a href="#about">A propos</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="resources/CV.pdf" target="_blank" class="cv-btn"><span class="material-symbols-outlined"> download
+            </span>CV</a>
+        </li>
+        <span id="close" class="material-symbols-outlined" onclick="menuClose()">
+          close
+        </span>
+      </ul>
+      <span id="menuicon" class="material-symbols-outlined" onclick="menuOpen()">
+        menu
+      </span>
+    </nav>
+  </div>
+  <div id="about" class="intro">
+    <p>ROLLAND Anthony</p>
+    <h2>Étudiant en informatique</h2>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="lignesapropos">
+        <div class="apropos1">
+          <h1>À propos de moi</h1>
+          <p>
+            Je m'appelle Anthony Rolland, j'ai 19 ans et je suis étudiant
+            en 2e année de BUT
+            Informatique à l'IUT de Lens. Le domaine des nouvelles
+            technologies et plus particulièrement de l'informatique me
+            passionne. Vous pouvez voir sur mon portfolio toutes mes
+            compétences ainsi que mon parcours scolaire.
+            J'ai l'occasion de faire des petits projets personnels pour gagner en compétences et en expérience.
+            Je suis à la recherche d'un stage à partir de mi-avril 2024 qui me permettra d'intégrer une équipe
+            dynamique.
+            Pour plus d'informations, vous pouvez me contacter plus bas.
+          </p>
+        </div>
+        <div class="apropos2">
+          <img src="img/me.jpg" alt="moi" />
+        </div>
+      </div>
     </div>
-    <div id="about" class="intro">
-      <p>ROLLAND Anthony</p>
-      <h2>Étudiant en informatique</h2>
+  </div>
+  <div id="education" class="education">
+    <div class="container">
+      <h1>Éducation</h1>
+      <div class="ligneseducation">
+        <div class="educationitem educationitem1">
+          <div class="texteducation">
+            <h2>2019-2022</h2>
+            <h3>Baccalauréat Option Maths et Physique-Chimie</h3>
+            <p>Lycée Dupleix - Landrecies</p>
+            <h4>
+              Baccalauréat mention bien avec spécialité mathématiques et
+              physique-chimie. J'ai égalment fait les options sports, anglais
+              section européenne, et maths expertes.
+            </h4>
+          </div>
+        </div>
+        <div class="educationitem educationitem2">
+          <div class="texteducation">
+            <h2>2022-2025</h2>
+            <h3>BUT Informatique</h3>
+            <p>IUT de Lens - Lens</p>
+            <h4>
+              Mise en pratique des compétences aprises durant des
+              <a href="#competences">semaines auto évaluées (SAÉ)</a>. Cela
+              nous permet d'apprendre à travailler en équipe et de nous
+              préparer à la vie professionnelle. Compétence visée :
+              Réalisation d'applications : Conception, développement et
+              validation.
+            </h4>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="about">
-      <div class="container">
-        <div class="lignesapropos">
-          <div class="apropos1">
-            <h1>À propos de moi</h1>
-            <p>
-              Je m'appelle Anthony Rolland, j'ai 19 ans et je suis étudiant
-              en 2e année de BUT
-              Informatique à l'IUT de Lens. Le domaine des nouvelles
-              technologies et plus particulièrement de l'informatique me
-              passionne. Vous pouvez voir sur mon portfolio toutes mes
-              compétences ainsi que mon parcours scolaire.
-              J'ai l'occasion de faire des petits projets personnels pour gagner en compétences et en expérience.
-              Je suis à la recherche d'un stage à partir de mi-avril 2024 qui me permettra d'intégrer une équipe dynamique.
-              Pour plus d'informations, vous pouvez me contacter plus bas.
+  </div>
+  <div id="competences" class="titrecomp">
+    <h1>Compétences</h1>
+  </div>
+  <div class="competences">
+    <div class="row">
+      <div class="img-competences">
+        <div class="comp-img active-tab" id="devwebimg">
+          <img src="img/logos_competences/htmlcss.png" alt="html css">
+          <img src="img/logos_competences/php.png" alt="php">
+          <img src="img/logos_competences/js.png" alt="js">
+          <img src="img/logos_competences/laravel.png" alt="laravel">
+          <div class="logoside">
+            <img src="img/logos_competences/vscode.png" alt="vscode">
+            <img src="img/logos_competences/typescript.svg" alt="typescript">
+          </div>
+        </div>
+        <div class="comp-img" id="devappimg">
+          <img src="img/logos_competences/java.png" alt="java">
+          <img src="img/logos_competences/gradle.png" alt="gradle">
+          <img src="img/logos_competences/python.png" alt="python">
+          <img src="img/logos_competences/git.png" alt="git">
+          <div class="logoside">
+            <img src="img/logos_competences/idea.png" alt="idea">
+            <img src="img/logos_competences/pycharm.png" alt="pycharm">
+          </div>
+        </div>
+        <div class="comp-img" id="devopsimg">
+          <img src="img/logos_competences/bash.png" alt="bash">
+          <img src="img/logos_competences/plpgsql.png" alt="plpgsql">
+          <a href="https://www.root-me.org/Potla-792217" target="_blank">
+            <img src="img/logos_competences/rootme.png" alt="rootme" style="width: 20%; margin-left: 4em;">
+          </a>
+          <img src="img/logos_competences/aws.png" alt="aws">
+          <div class="logoside">
+            <img src="img/logos_competences/idea.png" alt="idea">
+            <img src="img/logos_competences/pycharm.png" alt="pycharm">
+          </div>
+        </div>
+      </div>
+      <div class="texte-competences">
+        <div class="container">
+          <div class="liste-competences">
+            <p class="liste-links active-link" onclick="tabopen(event,'devweb')">
+              Développement Web
+            </p>
+            <p class="liste-links" onclick="tabopen(event, 'devapp')">
+              Développement applicatif
+            </p>
+            <p class="liste-links" onclick="tabopen(event, 'devops');">
+              Système et données
             </p>
           </div>
-          <div class="apropos2">
-            <img src="img/me.jpg" alt="moi" />
+          <div class="content-competences active-tab" id="devweb">
+            <ul>
+              <li>
+                <span>HTML / CSS / PHP et JavaScript</span>
+                <div class="date">Novembre 2022 :</div>
+                <div class="description">
+                  Réalisation d'un site de vente de tickets de football en
+                  HTML / CSS
+                </div>
+              </li>
+              <li>
+                <div class="date">Septembre - Novembre 2023 :</div>
+                <div class="description">
+                  Découverte du PHP, notamment du framework Laravel :
+                  Réalisation d'un site qui liste les sports de JO de Paris
+                  2024 (utilisation d'une base de données, lien avec Laravel)
+                </div>
+              </li>
+              <li>
+                <div class="date">Novembre 2023 :</div>
+                <div class="description">
+                  Découverte du JavaScript, et d'un framework EmailJS.
+                  Réalisation de mon portfolio en HTML / CSS / JavaScript
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content-competences" id="devapp">
+            <ul>
+              <li>
+                <span>Java et Python</span>
+                <div class="date">Fin 2022 :</div>
+                <div class="description">
+                  Développement d'un Puissance 4 sur navigateur en utilisant
+                  Python et HTTP
+                </div>
+              </li>
+              <li>
+                <div class="date">Juin 2023 :</div>
+                <div class="description">
+                  Développement d'une applicaiton de gestion de stock en Java.
+                  <div class="description">
+                    Développement, à partir d'une base, d'un graphe de Lens et
+                    ses environs en calculant l'intinéraire le plus court
+                    entre deux points en Java.
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="date">Fin 2023 :</div>
+                <div class="description">
+                  Découverte de Flask : Développement d'un site de recherche
+                  de Pokémon (avec un PokéDex) en utilisant une API (PokéAPI)
+                </div>
+              </li>
+              <li>
+                <div class="description">
+                  Réalisation d'un lanceur de rayons en Java (utilisation de
+                  Gradle) qui à partir d'un texte génère une image. (Des
+                  sphères de couleurs en 3D que l'utilsateur aura choisi)
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content-competences" id="devops">
+            <ul>
+              <li>
+                <span>SQL, Bash et Pentesting</span>
+                <div class="date">Fin 2022 :</div>
+                <div class="description">
+                  Création d'une base de données d'une entreprise de vente de
+                  boissons. <br />
+                </div>
+              </li>
+              <li>
+                <div class="date">Juin 2023 :</div>
+                <div class="description">
+                  Création d'un script Bash permettant de créer une session
+                  pour un utilisateur à partir de rien : Création du fichier
+                  DNS, d'un serveur web Apache et initialisation d'un réseau
+                  d'entreprise en configurant toutes les adresses IP (IPv4 et
+                  IPv6)
+                </div>
+                <div class="description">
+                  Je me suis lancé sur les platformes de cyber-sécurité tel
+                  que
+                  <a href="https://www.root-me.org/Potla-792217" target="_blank">RootMe</a>
+                  ou
+                  <a href="https://tryhackme.com/p/Potla" target="_blank">TryHackMe</a>.
+                </div>
+              </li>
+              <li>
+                <div class="date">Fin 2023</div>
+                <div class="description">
+                  Je m'intéresse au Cloud Computing notamment avec AWS. C'est
+                  pour cela que je compte migrer mon portfolio dessus.
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div id="education" class="education">
-      <div class="container">
-        <h1>Éducation</h1>
-        <div class="ligneseducation">
-          <div class="educationitem educationitem1">
-            <div class="texteducation">
-              <h2>2019-2022</h2>
-              <h3>Baccalauréat Option Maths et Physique-Chimie</h3>
-              <p>Lycée Dupleix - Landrecies</p>
-              <h4>
-                Baccalauréat mention bien avec spécialité mathématiques et
-                physique-chimie. J'ai égalment fait les options sports, anglais
-                section européenne, et maths expertes.
-              </h4>
-            </div>
-          </div>
-          <div class="educationitem educationitem2">
-            <div class="texteducation">
-              <h2>2022-2025</h2>
-              <h3>BUT Informatique</h3>
-              <p>IUT de Lens - Lens</p>
-              <h4>
-                Mise en pratique des compétences aprises durant des
-                <a href="#competences">semaines auto évaluées (SAÉ)</a>. Cela
-                nous permet d'apprendre à travailler en équipe et de nous
-                préparer à la vie professionnelle. Compétence visée :
-                Réalisation d'applications : Conception, développement et
-                validation.
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="competences" class="titrecomp">
-      <h1>Compétences</h1>
-    </div>
-    <div class="competences">
-      <div class="row">
-        <div class="img-competences">
-          <div class="comp-img active-tab" id="devwebimg">
-            <img src="img/logos_competences/htmlcss.png" alt="html css">
-            <img src="img/logos_competences/php.png" alt="php">
-            <img src="img/logos_competences/js.png" alt="js">
-            <img src="img/logos_competences/laravel.png" alt="laravel">
-            <div class="logoside">
-              <img src="img/logos_competences/vscode.png" alt="vscode">
-              <img src="img/logos_competences/typescript.svg" alt="typescript">
-            </div>
-          </div>
-          <div class="comp-img" id="devappimg">
-            <img src="img/logos_competences/java.png" alt="java">
-            <img src="img/logos_competences/gradle.png" alt="gradle">
-            <img src="img/logos_competences/python.png" alt="python">
-            <img src="img/logos_competences/git.png" alt="git">
-            <div class="logoside">
-              <img src="img/logos_competences/idea.png" alt="idea">
-              <img src="img/logos_competences/pycharm.png" alt="pycharm">
-            </div>
-          </div>  
-          <div class="comp-img" id="devopsimg">
-            <img src="img/logos_competences/bash.png" alt="bash">
-            <img src="img/logos_competences/plpgsql.png" alt="plpgsql">
-            <a href="https://www.root-me.org/Potla-792217" target="_blank"
-                      >            <img src="img/logos_competences/rootme.png" alt="rootme" style="width: 20%; margin-left: 4em;">
-                    </a>
-            <img src="img/logos_competences/aws.png" alt="aws">
-            <div class="logoside">
-              <img src="img/logos_competences/idea.png" alt="idea">
-              <img src="img/logos_competences/pycharm.png" alt="pycharm">
-            </div>
-          </div> 
-        </div>
-        <div class="texte-competences">
-          <div class="container">
-            <div class="liste-competences">
-              <p
-                class="liste-links active-link"
-                onclick="tabopen(event,'devweb')"
-              >
-                Développement Web
-              </p>
-              <p class="liste-links" onclick="tabopen(event, 'devapp')">
-                Développement applicatif
-              </p>
-              <p class="liste-links" onclick="tabopen(event, 'devops');">
-                Système et données
-              </p>
-            </div>
-            <div class="content-competences active-tab" id="devweb">
-              <ul>
-                <li>
-                  <span>HTML / CSS / PHP et JavaScript</span>
-                  <div class="date">Novembre 2022 :</div>
-                  <div class="description">
-                    Réalisation d'un site de vente de tickets de football en
-                    HTML / CSS
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Septembre - Novembre 2023 :</div>
-                  <div class="description">
-                    Découverte du PHP, notamment du framework Laravel :
-                    Réalisation d'un site qui liste les sports de JO de Paris
-                    2024 (utilisation d'une base de données, lien avec Laravel)
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Novembre 2023 :</div>
-                  <div class="description">
-                    Découverte du JavaScript, et d'un framework EmailJS.
-                    Réalisation de mon portfolio en HTML / CSS / JavaScript
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="content-competences" id="devapp">
-              <ul>
-                <li>
-                  <span>Java et Python</span>
-                  <div class="date">Fin 2022 :</div>
-                  <div class="description">
-                    Développement d'un Puissance 4 sur navigateur en utilisant
-                    Python et HTTP
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Juin 2023 :</div>
-                  <div class="description">
-                    Développement d'une applicaiton de gestion de stock en Java.
-                    <div class="description">
-                      Développement, à partir d'une base, d'un graphe de Lens et
-                      ses environs en calculant l'intinéraire le plus court
-                      entre deux points en Java.
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Fin 2023 :</div>
-                  <div class="description">
-                    Découverte de Flask : Développement d'un site de recherche
-                    de Pokémon (avec un PokéDex) en utilisant une API (PokéAPI)
-                  </div>
-                </li>
-                <li>
-                  <div class="description">
-                    Réalisation d'un lanceur de rayons en Java (utilisation de
-                    Gradle) qui à partir d'un texte génère une image. (Des
-                    sphères de couleurs en 3D que l'utilsateur aura choisi)
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="content-competences" id="devops">
-              <ul>
-                <li>
-                  <span>SQL, Bash et Pentesting</span>
-                  <div class="date">Fin 2022 :</div>
-                  <div class="description">
-                    Création d'une base de données d'une entreprise de vente de
-                    boissons. <br />
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Juin 2023 :</div>
-                  <div class="description">
-                    Création d'un script Bash permettant de créer une session
-                    pour un utilisateur à partir de rien : Création du fichier
-                    DNS, d'un serveur web Apache et initialisation d'un réseau
-                    d'entreprise en configurant toutes les adresses IP (IPv4 et
-                    IPv6)
-                  </div>
-                  <div class="description">
-                    Je me suis lancé sur les platformes de cyber-sécurité tel
-                    que
-                    <a
-                      href="https://www.root-me.org/Potla-792217"
-                      target="_blank"
-                      >RootMe</a
-                    >
-                    ou
-                    <a href="https://tryhackme.com/p/Potla" target="_blank"
-                      >TryHackMe</a
-                    >.
-                  </div>
-                </li>
-                <li>
-                  <div class="date">Fin 2023</div>
-                  <div class="description">
-                    Je m'intéresse au Cloud Computing notamment avec AWS. C'est
-                    pour cela que je compte migrer mon portfolio dessus.
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="contact">
-      <div class="contact-titre">Contact</div>
-      <div class="contact-row" id="contact">
-        <div class="form">
-          <form id="formulaire" style="display: block;">
-            <label>Nom et prénom</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Votre nom et prénom . . ."
-            />
-            <label>EMail</label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              placeholder="nom@email.fr."
-            />
+  </div>
+  <div class="contact">
+    <div class="contact-titre">Contact</div>
+    <div class="contact-row" id="contact">
+      <div class="form">
+        <form id="formulaire" style="display: block;">
+          <label>Nom et prénom</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom et prénom . . ." />
+          <label>EMail</label>
+          <input type="text" id="email" name="email" placeholder="nom@email.fr." />
 
-            <label>Sujet du message</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              placeholder="Renseignements . . ."
-            />
+          <label>Sujet du message</label>
+          <input type="text" id="subject" name="subject" placeholder="Renseignements . . ." />
 
-            <label>Message</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Écrivez votre message ici . . ."
-              style="height: 200px"
-            ></textarea>
+          <label>Message</label>
+          <textarea id="message" name="message" placeholder="Écrivez votre message ici . . ."
+            style="height: 200px"></textarea>
           <input type="submit" value="Envoyer" onclick="mailSent()" />
-          </form>
-          <div class="mess-envoye" id="mess-envoye" style="display: none;">
-            <h1>Votre message a bien été envoyé, merci !</h1>
-          </div>
-          <div class="rgpd" id="rgpd" display: block;">
-            Lorsque vous me contactez par e-mail, vos données personnelles (nom,
-            prénom, sujet, adresse e-mail) sont utilisées uniquement dans le but
-            de répondre à votre demande. Je ne partage, ni n'utilise vos
-            informations avec des tiers et ne les conserve que le temps
-            nécessaire pour vous répondre. À tout moment, vous pouvez demander
-            la suppression de vos données ou nos contacts en me contactant
-            <a href="mailto:anthony.rolland@proton.me">ici</a>.
-          </div>
+        </form>
+        <div class="mess-envoye" id="mess-envoye" style="display: none;">
+          <h1>Votre message a bien été envoyé, merci !</h1>
         </div>
-        <div class="liens">
-          <h1>Liens utiles:</h1>
-          <div class="linkedin">
-            <a href="https://www.linkedin.com/in/anthony-rolland-info" target="_blank"
-              ><img src="img/linkedin.png" alt="LinkedIn" /></a
-            ><a href="http://www.linkedin.com/in/anthony-rolland-info" target="_blank"
-              >Anthony Rolland</a
-            >
-          </div>
-          <div class="github">
-            <a href="https://github.com/PotlaETU" target="_blank"
-              ><img src="img/github-mark-white.png" alt="GitHub" /></a
-            ><a href="http://github.com/PotlaETU" target="_blank">PotlaETU</a>
-          </div>
-          <div class="phone">
-            <span class="material-symbols-outlined">
-              call
-              </span>
-              +33 6 19 99 48 30
-          </div>
+        <div class="rgpd" id="rgpd" display: block;">
+          Lorsque vous me contactez par e-mail, vos données personnelles (nom,
+          prénom, sujet, adresse e-mail) sont utilisées uniquement dans le but
+          de répondre à votre demande. Je ne partage, ni n'utilise vos
+          informations avec des tiers et ne les conserve que le temps
+          nécessaire pour vous répondre. À tout moment, vous pouvez demander
+          la suppression de vos données ou nos contacts en me contactant
+          <a href="mailto:anthony.rolland@proton.me">ici</a>.
+        </div>
+      </div>
+      <div class="liens">
+        <h1>Liens utiles:</h1>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/anthony-rolland-info" target="_blank"><img src="img/linkedin.png"
+              alt="LinkedIn" /></a><a href="http://www.linkedin.com/in/anthony-rolland-info" target="_blank">Anthony
+            Rolland</a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/PotlaETU" target="_blank"><img src="img/github-mark-white.png"
+              alt="GitHub" /></a><a href="http://github.com/PotlaETU" target="_blank">PotlaETU</a>
+        </div>
+        <div class="phone">
+          <span class="material-symbols-outlined">
+            call
+          </span>
+          +33 6 19 99 48 30
         </div>
       </div>
     </div>
-    <footer>
-      <div class="footer">
-        Fait avec <span class="material-symbols-outlined">favorite</span>- Antho - 2023
-      </div>
-    </footer>
-  </body>
+  </div>
+  <footer>
+    <div class="footer">
+      Fait avec <span class="material-symbols-outlined">favorite</span>- Antho - 2023
+    </div>
+  </footer>
+</body>
+
 </html>

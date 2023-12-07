@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Raleway:wght@200&display=swap");
 
 * {
   padding: 0;
@@ -8,11 +8,10 @@
   max-width: 100%;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   margin-right: 5px;
   vertical-align: middle;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -40,26 +39,26 @@ nav {
   flex-wrap: wrap;
 }
 
-nav span{
+nav span {
   color: white;
 }
 
-#intrologo{
+#intrologo {
   margin-left: -4em;
 }
 
-#menuicon{
+#menuicon {
   display: none;
 }
 
-#close{
+#close {
   display: none;
 }
 
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 0.625em 1.20em;
+  margin: 0.625em 1.2em;
   margin-top: 1em;
 }
 
@@ -96,7 +95,6 @@ nav ul li a:hover::after {
 .intro {
   margin-top: 50px;
   font-family: "Montserrat", sans-serif;
-
 }
 
 .intro p {
@@ -134,14 +132,12 @@ body {
   font-family: "League Spartan", sans-serif;
 }
 
-
 .apropos1 p {
   font-size: 20px;
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
   justify-content: space-around;
 }
-
 
 .apropos2 img {
   width: 40%;
@@ -195,7 +191,7 @@ body {
 .texteducation p {
   font-family: "Montserrat", sans-serif;
   margin: 3px 0;
-  font-style: italic
+  font-style: italic;
 }
 
 .texteducation h4 {
@@ -216,14 +212,16 @@ body {
   font-family: "League Spartan", sans-serif;
 }
 
-.educationitem1, .educationitem2 {
+.educationitem1,
+.educationitem2 {
   width: 50%;
 }
 
 .educationitem1 {
-  margin-left: 0;}
+  margin-left: 0;
+}
 
-.cv-btn{
+.cv-btn {
   margin-top: 20px;
   padding: 10px 10px;
   border-radius: 5px;
@@ -235,70 +233,67 @@ body {
   text-decoration: none;
 }
 
-.texteducation a{
+.texteducation a {
   color: white;
 }
 
 /*Compétences*/
 
-.competences{
+.competences {
   padding: 0 5%;
   color: white;
-  height: 475px; 
+  height: 475px;
 }
 
-
-
-.competences img{
+.competences img {
   border-radius: 10px;
   margin-top: 3vh;
 }
 
-.competences li{
+.competences li {
   list-style: none;
-
 }
 
-.texte-competences{
+.texte-competences {
   flex-basis: 55%;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
 
-.titrecomp h1{
+.titrecomp h1 {
   padding: 40px 5%;
   color: white;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 40px;
 }
 
 .competences li {
-    list-style: none;
-    margin: 10px 0;
+  list-style: none;
+  margin: 10px 0;
 }
 
-.competences li span{
-  font-family: 'League Spartan', sans-serif;
+.competences li span {
+  font-family: "League Spartan", sans-serif;
   color: #3498db;
   font-size: 30px;
 }
 
-.comp_img a{
+.comp_img a {
   color: white;
   text-decoration: none;
 }
 
-.content-competences .date{
+.content-competences .date {
   font-size: 18px;
 }
 
 .content-competences li * {
   font-size: 15px;
   margin-top: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .liste-competences {
@@ -308,15 +303,15 @@ body {
   justify-content: space-between;
 }
 
-.img-competences{
+.img-competences {
   flex-basis: 40%;
 }
 
-.devweb-img{
+.devweb-img {
   display: block;
 }
 
-.img-competences img{
+.img-competences img {
   width: 32%;
   height: auto;
   margin-left: 2em;
@@ -324,29 +319,29 @@ body {
   margin-top: 0;
 }
 
-.comp-img.active-tab{
+.comp-img.active-tab {
   display: block;
 }
 
-.logoside img{
+.logoside img {
   width: 20%;
   margin-left: 4em;
 }
 
-.comp-img{
+.comp-img {
   display: none;
 }
 
-.liste-links{
+.liste-links {
   margin-right: 50px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
   position: relative;
 }
 
-.liste-links::after{
-  content: '';
+.liste-links::after {
+  content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
@@ -356,68 +351,70 @@ body {
   transition: 0.5s;
 }
 
-.liste-links:hover::after{
+.liste-links:hover::after {
   width: 100%;
 }
 
-.liste-links.active-link::after{
+.liste-links.active-link::after {
   width: 40%;
 }
 
-
-.content-competences{
+.content-competences {
   display: none;
   background-color: #1a1a1a;
   border-radius: 15px;
 }
 
-.content-competences ul{
+.content-competences ul {
   margin: 10px;
   padding: 10px;
 }
 
-.content-competences.active-tab{
+.content-competences.active-tab {
   display: block;
 }
 
-.description a{
+.description a {
   color: white;
 }
 
 /*Contact*/
 
-.contact{
+.contact {
   padding: 40px 5%;
   color: white;
 }
 
-.contact-titre{
+.contact-titre {
   font-size: 40px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 600;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical
+  resize: vertical;
 }
 
-input, textarea{
-  font-family: 'Montserrat', sans-serif;
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
 }
 
-label{
-  font-family: 'League Spartan', sans-serif;
+label {
+  font-family: "League Spartan", sans-serif;
   font-size: 20px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #3498db;
   color: white;
   padding: 12px 20px;
@@ -426,239 +423,240 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #65b8ef;
 }
 
-.contact-row{
+.contact-row {
   display: flex;
   justify-content: space-between;
   margin-top: 2em;
   flex-wrap: wrap;
 }
 
-.form{
+.form {
   flex-basis: 50%;
   background-color: #1a1a1a;
   border-radius: 15px;
-  padding: 20px;}
+  padding: 20px;
+}
 
-.liens{
+.liens {
   flex-basis: 40%;
   padding: 20px;
 }
 
-.github img, .linkedin img{
+.github img,
+.linkedin img {
   width: 90px;
   padding: 10px;
 }
 
-.rgpd{
-  font-family: 'Raleway', sans-serif;
+.rgpd {
+  font-family: "Raleway", sans-serif;
   font-style: italic;
   font-size: 10px;
   margin-top: 1em;
 }
 
-.rgpd a{
+.rgpd a {
   color: white;
 }
 
-.linkedin, .github{
+.linkedin,
+.github {
   display: flex;
   align-items: center;
   text-align: left;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.linkedin a, .github a{
+.linkedin a,
+.github a {
   color: white;
   text-decoration: none;
 }
-
 
 .contact-row h1 {
   font-size: 25px;
   font-family: "League Spartan", sans-serif;
 }
 
-.mess-envoye{
+.mess-envoye {
   text-align: center;
   align-items: center;
 }
 
-footer{
+footer {
   background-color: #303030;
   color: white;
-  font-family: 'Raaleway', sans-serif;
+  font-family: "Raaleway", sans-serif;
   font-size: 12px;
   text-align: center;
   height: 100%;
 }
 
-.footer{
+.footer {
   padding: 0;
 }
 
-footer span{
+footer span {
   color: #3498db;
 }
 
-
-.phone span{
+.phone span {
   font-size: 80px;
 }
 
-.phone{
-  font-family: 'Montserrat', sans-serif;
-  
+.phone {
+  font-family: "Montserrat", sans-serif;
 }
 
-@media only screen and (max-width: 980px){
-  .img-competences{
+@media only screen and (max-width: 980px) {
+  .img-competences {
     display: none;
   }
 
-  .row{
+  .row {
     display: inline;
   }
 }
 
 @media only screen and (max-width: 700px) {
-
-  .contact-row{
+  .contact-row {
     justify-content: center;
   }
 
-  .lignesapropos{
+  .lignesapropos {
     display: flex;
   }
 
-  .intro p{
+  .intro p {
     font-size: 30px;
   }
 
-  #about{
+  #about {
     margin-top: 0;
   }
 
-  .cv-btn{
+  .cv-btn {
     padding: 0;
   }
 
-  .education{
+  .education {
     padding: 10px;
   }
 
-  .education h1{
+  .education h1 {
     font-size: 35px;
     text-align: center;
   }
 
-  .ligneseducation{
+  .ligneseducation {
     display: grid;
   }
 
-  .educationitem1, .educationitem2{
+  .educationitem1,
+  .educationitem2 {
     width: 100%;
     margin-left: 0;
   }
 
-  .texteducation{
+  .texteducation {
     font-size: 15px;
   }
 
-  .titrecomp h1{
+  .titrecomp h1 {
     font-size: 35px;
     text-align: center;
     padding: 10px;
   }
 
-  .contact-row{
+  .contact-row {
     display: block;
   }
 
-  .contact-titre{
+  .contact-titre {
     font-size: 25px;
     text-align: center;
   }
 
-  .contact{
+  .contact {
     padding: 10px;
   }
 
-  .intro{
+  .intro {
     margin-top: 1em;
   }
 
-  .intro h2{
+  .intro h2 {
     font-size: 18px;
   }
 
-  .lignesapropos h1{
+  .lignesapropos h1 {
     font-size: 25px;
     text-align: center;
   }
 
-  .apropos1{
+  .apropos1 {
     flex-basis: 100%;
     margin: 25px;
   }
 
-  .apropos1 h1{
+  .apropos1 h1 {
     font-size: 30px;
   }
 
-  .apropos1 p{
+  .apropos1 p {
     font-size: 18px;
     text-align: justify;
   }
 
-  .apropos2{
+  .apropos2 {
     display: none;
   }
 
-  .intro2{
+  .intro2 {
     display: block;
   }
 
-  .intro2 img{
+  .intro2 img {
     width: 150px;
   }
 
-  .intro2 img{
+  .intro2 img {
     border-radius: 10px;
   }
 
-  .liens span{
+  .liens span {
     font-size: 40px;
   }
 
-  .liens img{
+  .liens img {
     width: 50px;
   }
 
-  #close{
+  #close {
     margin: 30px;
   }
 
-  .phone{
+  .phone {
     margin-left: 5px;
   }
 
-  .liens{
+  .liens {
     flex-basis: 100%;
     padding: 10px;
   }
 
-  .liens h1{
+  .liens h1 {
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
   }
 
-  .footer{
+  .footer {
     font-size: 7px;
   }
 
@@ -666,58 +664,57 @@ footer span{
     font-size: 12px;
   }
 
-  .liste-competences{
+  .liste-competences {
     display: grid;
     width: 100%;
   }
 
-  .liste-competences p{
+  .liste-competences p {
     margin: 10px;
     font-size: 20px;
   }
 
-  .rgpd{
+  .rgpd {
     font-size: 10px;
   }
 
-  .logo{
+  .logo {
     height: 90px;
     width: 90px;
     margin-top: -1.8em;
     margin-left: 30px;
   }
 
-  .nav-links{
+  .nav-links {
     height: 3em;
   }
 
-  #menuicon{
+  #menuicon {
     margin-top: 0;
   }
 
-  .liste-links{
+  .liste-links {
     justify-content: space-around;
   }
 }
 
-
-
 @media only screen and (max-width: 800px) {
-  #menuicon, #close{
+  #menuicon,
+  #close {
     display: block;
     font-size: 30px;
     cursor: pointer;
   }
 
-  .competences{
+  .competences {
     height: auto;
   }
 
-  .nav-links{
+  .nav-links {
     width: 100%;
   }
 
-  nav ul{
+  nav ul {
     background: #3498db;
     position: fixed;
     top: 0;
@@ -730,12 +727,12 @@ footer span{
     transition: right 0.5s ease;
   }
 
-  nav ul li{
+  nav ul li {
     display: block;
     margin: 40px 0;
   }
 
-  #close{
+  #close {
     position: absolute;
     top: 0;
     left: 40px;
@@ -744,23 +741,27 @@ footer span{
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.competences{
+.competences {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-.ligneseducation{
+.ligneseducation {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-#contact{
+#contact {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-.lignesapropos{
+.lignesapropos {
   animation: fadeIn 0.8s ease-in-out;
 }
 

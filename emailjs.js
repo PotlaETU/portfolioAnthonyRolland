@@ -26,7 +26,7 @@ function mailSent() {
     })
 }
 
-function showMesSent(){
+function showMesSent() {
     document.getElementById("formulaire").style.display = "none";
     document.getElementById('rgpd').style.display = "none";
     document.getElementById("mess-envoye").style.display = "block";
