@@ -153,6 +153,7 @@ body {
 .apropos2 {
   width: 60%;
   flex-basis: 50%;
+  text-align: center;
 }
 
 .education {
@@ -283,6 +284,11 @@ body {
   font-family: 'League Spartan', sans-serif;
   color: #3498db;
   font-size: 30px;
+}
+
+.comp_img a{
+  color: white;
+  text-decoration: none;
 }
 
 .content-competences .date{
