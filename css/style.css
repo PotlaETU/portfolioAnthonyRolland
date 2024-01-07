@@ -463,14 +463,6 @@ input[type="submit"]:hover {
   color: white;
 }
 
-.linkedin,
-.github {
-  display: flex;
-  align-items: center;
-  text-align: left;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-}
 
 .linkedin a,
 .github a {
@@ -479,7 +471,7 @@ input[type="submit"]:hover {
 }
 
 .contact-row h1 {
-  font-size: 25px;
+  font-size: 35px;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -509,8 +501,18 @@ footer span {
   font-size: 80px;
 }
 
-.phone {
+.phone, .linkedin, .github {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
+}
+
+.flag{
+  width: 30px;
+  height: 20px;
 }
 
 @media only screen and (max-width: 980px) {
@@ -698,7 +700,7 @@ footer span {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 810px) {
   #menuicon,
   #close {
     display: block;
