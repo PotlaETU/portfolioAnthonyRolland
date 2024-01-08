@@ -380,12 +380,16 @@ body {
 
 /*Contact*/
 
-.contact {
+.contact, .projets {
   padding: 40px 5%;
   color: white;
 }
 
-.contact-titre {
+.projets-titre{
+  margin-top: 2em;
+}
+
+.contact-titre, .projets-titre{
   font-size: 40px;
   font-family: "League Spartan", sans-serif;
   font-weight: 600;
@@ -513,6 +517,27 @@ footer span {
 .flag{
   width: 30px;
   height: 20px;
+}
+
+/*Projets*/
+
+.tab-projets{
+  display: flex;
+
+}
+
+.project:hover .projet-info {
+  opacity: 1;
+}
+
+.projet-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
 }
 
 @media only screen and (max-width: 980px) {
