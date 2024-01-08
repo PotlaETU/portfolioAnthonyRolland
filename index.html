@@ -31,6 +31,7 @@
           <li><a href="#about">A propos</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
             <a href="en_index.html"
@@ -173,13 +174,19 @@
                 class="liste-links active-link"
                 onclick="tabopen(event,'devweb')"
               >
-                Développement Web
+                Développement Web <span class="material-symbols-outlined">
+                  expand_more
+                  </span>
               </p>
               <p class="liste-links" onclick="tabopen(event, 'devapp')">
-                Développement applicatif
+                Développement applicatif <span class="material-symbols-outlined">
+                  expand_more
+                  </span>
               </p>
               <p class="liste-links" onclick="tabopen(event, 'devops');">
-                Système et données
+                Système et données <span class="material-symbols-outlined">
+                  expand_more
+                  </span>
               </p>
             </div>
             <div class="content-competences active-tab" id="devweb">
@@ -292,14 +299,67 @@
         </div>
       </div>
     </div>
-    <div class="projets">
+    <div class="projets" id="projets">
       <div class="projets-titre">Mes projets</div>        
-      <div class="project">
-        <img src="" alt="Projet 1">
-        <div class="projet-info">
-          <h2>Flatcraft</h2>
-          <p>Le projet Flatcraft consiste à développer en Java une réplique de Minecraft en 2D. Nous avons utilisé des patrons de conception</p>
+      <div class="container-projets">
+        <div class="project">
+          <a href="https://github.com/PotlaETU/Flatcraft" target="_blank">          
+            <img src="img/projets/flatcraft.png" alt="Projet 1">
+          </a>
+          <div class="projet-info">
+            <h2>Flatcraft</h2>
+            <p>Le projet Flatcraft consiste à développer en Java une réplique de Minecraft en 2D. Nous avons utilisé des patrons de conception qui nous ont permis de coder plus efficacement.</p>
+          </div>
         </div>
+        <div class="project">
+          <div class="img-crypto">
+            <a href="https://github.com/PotlaETU/RayTracer" target="_blank">
+              <img src="img/projets/raytracer.png" alt="Projet 6" id="raytracer">
+            </a>
+          </div>
+          <div class="projet-info">
+            <h2>RayTracer</h2>
+            <p>Nous avons développé un lanceur de rayons en Java. En prenant en paramètre un fichier texte contenant les paramètres de l'image, le programme est en capacité de générer une image comme celle-ci.</p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://github.com/PotlaETU/RayTracerSite" target="_blank">          
+            <img src="img/projets/raytracersite.png" alt="Projet 2">
+          </a>
+          <div class="projet-info">
+            <h2>Site du RayTracer</h2>
+            <p>En lien avec le projet RayTracer, nous avons créé un site web permettant de générer ces images, de se créer un compte, d'aimer et de commenter les images des autres utilisateurs en utilisant Laravel.</p>
+          </div>
+      </div>
+      <div class="project">
+        <a href="https://github.com/PotlaETU/ReadMe" target="_blank">      
+            <img src="img/projets/readme.png" alt="Projet 3">
+        </a>
+        <div class="projet-info">
+          <h2>ReadMe</h2>
+          <p>Lors du Marathon Web 2023, qui consiste à 48h non-stop pour créer un site web en coopération avec des étudiants en MMI, le site ReadMe a été réalisé en Laravel contenant toutes sortes d'histoires avec la possibilité de créer un compte, de sauvegarder, de créer et d'aimer des histoires.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="img-crypto">
+          <a href="https://github.com/PotlaETU/crypto-extension" target="_blank">
+            <img src="img/projets/cryptoextension.png" alt="Projet 4" id="crypto">
+          </a>
+        </div>
+        <div class="projet-info">
+          <h2>CryptoExtension (en cours)</h2>
+          <p>J'ai eu l'idée de créer une extension Chromium qui va donner le prix des cryptos-monnaies en temps réel grâce à l'api de <a href="https://coinmarketcap.com/api/" target="_blank">CoinMarcketCap</a>. L'utilisateur aura aussi la possibilité de créer des alertes, d'ajouter des cryptos en favori . . . </p>
+        </div>
+      </div>
+      <div class="project">
+        <a href="https://github.com/PotlaETU/LeagueRole" target="_blank">
+          <img src="img/projets/leaguerole.png" alt="Projet 5">
+        </a>
+        <div class="projet-info">
+          <h2>League Role</h2>
+          <p>Petit projet en Java et Gradle qui m'a entraîné à JavaFX. L'utilisateur peut choisir un role parmi les 5 du jeu League of Legends et mon avis ainsi qu'une image apparîtra . . .</p>
+        </div>
+      </div>
       </div>
     </div>
     <div class="contact">
