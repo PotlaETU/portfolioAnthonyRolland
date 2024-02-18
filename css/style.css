@@ -781,7 +781,7 @@ footer span {
   }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 970px) {
   #menuicon,
   #close {
     display: block;
@@ -820,6 +820,38 @@ footer span {
     top: 0;
     left: 40px;
     margin: 30px;
+  }
+
+  .img-crypto img{
+    width: 50px;
+  }
+
+  .project p{
+    display: none;
+  }
+
+  .container-projets{
+    display: block;
+  }
+
+  .project{
+    width: 100%;
+    text-align: center    ;
+  }
+
+  .project h2{
+    font-size: 25px;
+  }
+
+  #crypto, #raytracer{
+    width: 10em;
+    height: 10em;
+  }
+
+
+  .project img{
+    width: 15em;
+
   }
 }
 
