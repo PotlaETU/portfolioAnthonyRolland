@@ -101,6 +101,11 @@ nav ul li a:hover::after {
   font-size: 40px;
 }
 
+#gradient {
+  background: linear-gradient(130deg, #9c5ff8 40%, #fa4d88 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 body {
   background-color: #252525;
 }
